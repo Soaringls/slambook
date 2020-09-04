@@ -29,7 +29,7 @@ include_directories(
         # ${Sophus_INCLUDE_DIRS}
         "/usr/local/include/sophus"
         # "/usr/include/eigen3"
-        "/home/lyu/dexter/bak_gitopen/deps_libs/eigen/eigen-3.3.7"
+        "/usr/include/eigen3.3.7"
         ${Pangolin_INCLUDE_DIRS}
 )
 #deps deps-libs
