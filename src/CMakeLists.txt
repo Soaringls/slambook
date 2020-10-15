@@ -1,8 +1,0 @@
-# add_subdirectory(ch2 temp_ch2)
-# add_subdirectory(ch2 temp_ch2)
-# add_subdirectory(ch2 temp_ch2)
-# add_subdirectory(ch2 temp_ch2)
-# add_subdirectory(ch2 temp_ch2)
-add_subdirectory(ch6 temp_ch6)
-# add_subdirectory(ch7 temp_ch7)
-add_subdirectory(ch8 temp_ch8)
