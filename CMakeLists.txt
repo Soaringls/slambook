@@ -1,9 +1,12 @@
 cmake_minimum_required(VERSION 2.8)
 project(slambook)
 
-set(CMAKE_CXX_FLAGS "-std=c++11")
+set(CMAKE_CXX_FLAGS "-std=c++11 -03")
 # set(CMAKE_CXX_FLAGS "-std=c++14 -O3")
 set(CMAKE_BUILD_TYPE Debug)
+
+set(EXECUTABLE_OUTPUT_PATH ${PROJECT_SOURCE_DIR}/build/bin)
+set(LIBRARY_OUTPUT_PATH ${PROJECT_SOURCE_DIR}/lib)
 
 #deps pcl
 find_package(PCL 1.8 REQUIRED)
@@ -36,8 +39,11 @@ set(THIRD_LIBS
    ${OpenCV_LIBS}
    ${Pangolin_LIBRARIES}
    #optimizal
-   ${CERES_LIBRARIES} 
+   ${CERES_LIBRARIES}
 #    ${G2O_CORE_LIBRARY} ${G2O_STUFF_LIBRARY} #g2o_core g2o_stuff
 )
+
+set(EXECUTABLE_OUTPUT_PATH ${PROJECT_SOURCE_DIR}/build/version2/bin)
+set(LIBRARY_OUTPUT_PATH ${PROJECT_SOURCE_DIR}/build/version2/lib)
 
 add_subdirectory(version2)

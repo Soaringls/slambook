@@ -41,7 +41,7 @@
 #    ${CERES_LIBRARIES} ${G2O_CORE_LIBRARY} ${G2O_STUFF_LIBRARY} #g2o_core g2o_stuff
 # )
 
-set(EXECUTABLE_OUTPUT_PATH ${PROJECT_SOURCE_DIR}/build/version2/bin)
-set(LIBRARY_OUTPUT_PATH ${PROJECT_SOURCE_DIR}/build/version2/lib)
+# set(EXECUTABLE_OUTPUT_PATH ${PROJECT_SOURCE_DIR}/build/version2/bin)
+# set(LIBRARY_OUTPUT_PATH ${PROJECT_SOURCE_DIR}/build/version2/lib)
 
 add_subdirectory(src)

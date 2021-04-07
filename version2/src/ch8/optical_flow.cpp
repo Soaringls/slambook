@@ -77,7 +77,7 @@ void OpticalFlowMultiLevel(const cv::Mat &img1, const cv::Mat &img2,
  * @param y
  * @return the interpolated value of this pixel
  */
-inline float GetPixelValue(const cv::cv::Mat &img, float x, float y) {
+inline float GetPixelValue(const cv::Mat &img, float x, float y) {
   // boundary check
   if (x < 0) x = 0;
   if (y < 0) y = 0;
